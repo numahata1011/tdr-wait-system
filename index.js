@@ -1,51 +1,57 @@
-const Themeparks = require("themeparks");
-const fs = require("fs");
-
-// 新しい仕様: APIクライアントを作成
-const destinationsApi = new Themeparks.DestinationsApi();
-const entitiesApi = new Themeparks.EntitiesApi();
+const fs = require('fs');
 
 (async () => {
     try {
-        console.log("Connecting to ThemeParks.wiki API...");
+        console.log("1. Fetching global destinations...");
+        // ライブラリを使わず、直接APIを叩く
+        const destRes = await fetch('https://api.themeparks.wiki/v1/destinations');
+        const destData = await destRes.json();
 
-        // 1. 世界中のパーク一覧を取得
-        const dests = await destinationsApi.getDestinations();
+        // "Tokyo" を含むリゾート（目的地）を探す
+        const resort = destData.destinations.find(d => d.name.includes('Tokyo Disney') || d.slug.includes('tokyo'));
 
-        // 2. "Tokyo Disneyland" を検索してIDを特定
-        // ※ 検索に失敗しないよう、柔軟に探すロジックにしています
-        const tdl = dests.destinations.find(d => d.slug === "tokyo-disneyland" || d.name.includes("Tokyo Disneyland"));
-
-        if (!tdl) {
-            console.error("Error: Tokyo Disneyland ID not found in API.");
-            process.exit(1);
+        if (!resort) {
+            // 見つからない場合は、何が見えているか全てログに出して終了（デバッグ用）
+            throw new Error("Resort not found. Available: " + destData.destinations.map(d => d.name).join(", "));
         }
+        console.log(`   Found Resort: ${resort.name} (ID: ${resort.id})`);
 
-        console.log(`Target Park Found: ${tdl.name} (ID: ${tdl.id})`);
+        console.log("2. Fetching resort children (Parks)...");
+        // リゾートIDを使って、その中にあるパーク一覧を取得
+        const childrenRes = await fetch(`https://api.themeparks.wiki/v1/entity/${resort.id}/children`);
+        const childrenData = await childrenRes.json();
 
-        // 3. そのIDを使って、現在の運行状況（Live Data）を取得
-        const liveDataResponse = await entitiesApi.getEntityLiveData(tdl.id);
-        const liveData = liveDataResponse.liveData;
+        // "Disneyland" を含むパークを特定
+        const park = childrenData.children.find(c => c.name.includes('Disneyland') || c.name.includes('Magic Kingdom'));
 
-        // 4. データ整形（ブログ用にシンプルにする）
-        const simpleData = liveData.map(ride => {
-            // 待ち時間の抽出（スタンバイがない場合は0にする）
+        if (!park) {
+            throw new Error("Resort found, but Park not found. Children: " + childrenData.children.map(c => c.name).join(", "));
+        }
+        console.log(`   Found Park: ${park.name} (ID: ${park.id})`);
+
+        console.log("3. Fetching wait times...");
+        // パークIDを使って、リアルタイムデータを取得
+        const liveRes = await fetch(`https://api.themeparks.wiki/v1/entity/${park.id}/live`);
+        const liveData = await liveRes.json();
+
+        // データの整形
+        const simpleData = liveData.liveData.map(ride => {
+            // 待ち時間（存在しない場合は0）
             const waitTime = (ride.queue && ride.queue.STANDBY) ? ride.queue.STANDBY.waitTime : 0;
-
             return {
                 name: ride.name,
-                waitTime: waitTime !== null ? waitTime : -1, // -1は休止やデータなし
+                waitTime: waitTime !== null ? waitTime : -1,
                 status: ride.status,
                 updateTime: new Date().toLocaleString("ja-JP", { timeZone: "Asia/Tokyo" })
             };
         });
 
-        // 5. JSONファイル保存
+        // 保存
         fs.writeFileSync("tdl_status.json", JSON.stringify(simpleData, null, 2));
-        console.log(`Success: Saved ${simpleData.length} attractions to tdl_status.json`);
+        console.log(`Success: Saved ${simpleData.length} attractions.`);
 
-    } catch (error) {
-        console.error("Critical Error:", error);
+    } catch (e) {
+        console.error("Critical Error:", e.message);
         process.exit(1);
     }
 })();
