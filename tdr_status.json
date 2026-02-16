@@ -4,538 +4,538 @@
     "name": "Ariel's Playground",
     "waitTime": -1,
     "status": "CLOSED",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "Mermaid Lagoon Theater",
     "waitTime": -1,
     "status": "CLOSED",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "Fortress Explorations",
     "waitTime": -1,
     "status": "CLOSED",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "DisneySea Transit Steamer Line (Mediterranean Harbor)",
-    "waitTime": 15,
-    "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "waitTime": -1,
+    "status": "CLOSED",
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "Indiana Jones Adventure®: Temple of the Crystal Skull",
     "waitTime": -1,
     "status": "CLOSED",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "Tower of Terror",
-    "waitTime": 160,
+    "waitTime": 100,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "DisneySea Transit Steamer Line (American Waterfront)",
-    "waitTime": 5,
-    "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "waitTime": -1,
+    "status": "CLOSED",
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "The Whirlpool",
-    "waitTime": 25,
+    "waitTime": 20,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "Sindbad's Storybook Voyage",
     "waitTime": 5,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "Turtle Talk",
-    "waitTime": 20,
+    "waitTime": 40,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "Flounder's Flying Fish Coaster",
-    "waitTime": 40,
+    "waitTime": 30,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "Jasmine's Flying Carpets",
     "waitTime": 25,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "Venetian Gondolas",
-    "waitTime": 25,
-    "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "waitTime": -1,
+    "status": "CLOSED",
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "The Leonardo Challenge",
-    "waitTime": 10,
-    "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "waitTime": -1,
+    "status": "CLOSED",
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "Caravan Carousel",
     "waitTime": 5,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
-  },
-  {
-    "park": "TDS",
-    "name": "Rapunzel's Lantern Festival",
-    "waitTime": 120,
-    "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "DisneySea Transit Steamer Line (Lost River Delta)",
-    "waitTime": 15,
+    "waitTime": -1,
+    "status": "CLOSED",
+    "updateTime": "2026/2/16 18:12:56"
+  },
+  {
+    "park": "TDS",
+    "name": "Rapunzel's Lantern Festival",
+    "waitTime": 70,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "Peter Pan's Never Land Adventure",
-    "waitTime": 100,
+    "waitTime": 50,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "The Magic Lamp Theater",
-    "waitTime": 30,
+    "waitTime": 15,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "Raging Spirits",
     "waitTime": -1,
     "status": "CLOSED",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "Big City Vehicles",
-    "waitTime": 5,
-    "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
-  },
-  {
-    "park": "TDS",
-    "name": "Blowfish Balloon Race",
-    "waitTime": 30,
-    "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "waitTime": -1,
+    "status": "CLOSED",
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "Aquatopia",
     "waitTime": 20,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
+  },
+  {
+    "park": "TDS",
+    "name": "Blowfish Balloon Race",
+    "waitTime": 25,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "DisneySea Electric Railway (American Waterfront)",
     "waitTime": -1,
     "status": "CLOSED",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "Scuttle's Scooters",
-    "waitTime": 30,
+    "waitTime": 15,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "DisneySea Electric Railway (Port Discovery)",
     "waitTime": -1,
     "status": "CLOSED",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
+  },
+  {
+    "park": "TDS",
+    "name": "Journey to the Center of the Earth",
+    "waitTime": 160,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "20,000 Leagues Under the Sea",
     "waitTime": 30,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
-  },
-  {
-    "park": "TDS",
-    "name": "Journey to the Center of the Earth",
-    "waitTime": 200,
-    "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "Jumpin' Jellyfish",
-    "waitTime": 20,
+    "waitTime": 15,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "Nemo & Friends SeaRider",
-    "waitTime": 50,
+    "waitTime": 40,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "Toy Story Mania!",
-    "waitTime": 160,
+    "waitTime": 120,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "Soaring: Fantastic Flight",
-    "waitTime": 200,
-    "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
-  },
-  {
-    "park": "TDS",
-    "name": "Anna and Elsa's Frozen Journey",
-    "waitTime": 160,
-    "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "waitTime": -1,
+    "status": "CLOSED",
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "Fairy Tinker Bell's Busy Buggies",
     "waitTime": 40,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
+  },
+  {
+    "park": "TDS",
+    "name": "Anna and Elsa's Frozen Journey",
+    "waitTime": 160,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Penny Arcade",
     "waitTime": -1,
     "status": "CLOSED",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Toon Park",
     "waitTime": -1,
     "status": "CLOSED",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Swiss Family Treehouse",
     "waitTime": -1,
     "status": "CLOSED",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Dumbo The Flying Elephant",
     "waitTime": -1,
     "status": "CLOSED",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Westernland Shootin' Gallery",
-    "waitTime": 15,
+    "waitTime": 5,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "The Happy Ride with Baymax",
-    "waitTime": 100,
+    "waitTime": 80,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Beaver Brothers Explorer Canoes",
-    "waitTime": 45,
-    "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "waitTime": -1,
+    "status": "CLOSED",
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Western River Railroad",
-    "waitTime": 25,
+    "waitTime": 20,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Goofy's Paint 'n' Play House",
-    "waitTime": 15,
+    "waitTime": 5,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Castle Carrousel",
-    "waitTime": 25,
+    "waitTime": 10,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Roger Rabbit's Car Toon Spin",
-    "waitTime": 40,
+    "waitTime": 20,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Mickey's PhilharMagic",
-    "waitTime": 15,
+    "waitTime": 5,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Splash Mountain",
-    "waitTime": 100,
+    "waitTime": 70,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Monsters, Inc. Ride & Go Seek!",
-    "waitTime": 90,
+    "waitTime": 80,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Pooh's Hunny Hunt",
     "waitTime": 70,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Gadget's Go Coaster",
-    "waitTime": 35,
+    "waitTime": 30,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "“it’s a small world with Groot”",
-    "waitTime": 15,
+    "waitTime": 10,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Tom Sawyer Island Rafts",
-    "waitTime": 5,
-    "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "waitTime": -1,
+    "status": "CLOSED",
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Pinocchio's Daring Journey",
-    "waitTime": 25,
+    "waitTime": 10,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Stitch Encounter",
     "waitTime": 10,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Minnie's House",
-    "waitTime": 65,
+    "waitTime": 60,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Country Bear Theater",
     "waitTime": 10,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Donald's Boat",
     "waitTime": 5,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Mark Twain Riverboat",
     "waitTime": 10,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Jungle Cruise: Wildlife Expeditions",
     "waitTime": -1,
     "status": "CLOSED",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Cinderella's Fairy Tale Hall",
     "waitTime": -1,
     "status": "CLOSED",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Chip 'n Dale's Treehouse",
     "waitTime": 5,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Alice's Tea Party",
-    "waitTime": 15,
+    "waitTime": 10,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Snow White's Adventures",
-    "waitTime": 40,
+    "waitTime": 25,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "The Enchanted Tiki Room: Stitch Presents “Aloha E Komo Mai!”",
     "waitTime": 10,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Haunted Mansion",
     "waitTime": -1,
     "status": "CLOSED",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Mickey's House and Meet Mickey",
     "waitTime": -1,
     "status": "CLOSED",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Omnibus",
     "waitTime": -1,
     "status": "CLOSED",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Star Tours: The Adventures Continue",
-    "waitTime": 20,
+    "waitTime": 15,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Peter Pan's Flight",
-    "waitTime": 50,
+    "waitTime": 30,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Big Thunder Mountain",
-    "waitTime": 90,
+    "waitTime": 80,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Pirates of the Caribbean",
-    "waitTime": 20,
+    "waitTime": 15,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDL",
     "name": "Enchanted Tale of Beauty and the Beast",
-    "waitTime": 140,
+    "waitTime": 120,
     "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:57"
+    "updateTime": "2026/2/16 18:12:56"
   },
   {
     "park": "TDS",
     "name": "DisneySea Electric Railway (Port Discovery)",
     "waitTime": -1,
     "status": "CLOSED",
-    "updateTime": "2026/2/16 16:46:58"
+    "updateTime": "2026/2/16 18:12:57"
   },
   {
     "park": "TDS",
     "name": "DisneySea Electric Railway (American Waterfront)",
     "waitTime": -1,
     "status": "CLOSED",
-    "updateTime": "2026/2/16 16:46:58"
+    "updateTime": "2026/2/16 18:12:57"
   },
   {
     "park": "TDS",
     "name": "DisneySea Transit Steamer Line (Lost River Delta)",
-    "waitTime": 15,
-    "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:58"
+    "waitTime": -1,
+    "status": "CLOSED",
+    "updateTime": "2026/2/16 18:12:57"
   },
   {
     "park": "TDS",
     "name": "DisneySea Transit Steamer Line (Mediterranean Harbor)",
-    "waitTime": 15,
-    "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:58"
+    "waitTime": -1,
+    "status": "CLOSED",
+    "updateTime": "2026/2/16 18:12:57"
   },
   {
     "park": "TDS",
     "name": "DisneySea Transit Steamer Line (American Waterfront)",
-    "waitTime": 5,
-    "status": "OPERATING",
-    "updateTime": "2026/2/16 16:46:58"
+    "waitTime": -1,
+    "status": "CLOSED",
+    "updateTime": "2026/2/16 18:12:58"
   }
 ]
