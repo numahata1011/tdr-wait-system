@@ -1,0 +1,230 @@
+[
+  {
+    "name": "Penny Arcade",
+    "waitTime": -1,
+    "status": "CLOSED",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Toon Park",
+    "waitTime": -1,
+    "status": "CLOSED",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Swiss Family Treehouse",
+    "waitTime": -1,
+    "status": "CLOSED",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Dumbo The Flying Elephant",
+    "waitTime": -1,
+    "status": "CLOSED",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Westernland Shootin' Gallery",
+    "waitTime": 10,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "The Happy Ride with Baymax",
+    "waitTime": 100,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Beaver Brothers Explorer Canoes",
+    "waitTime": 30,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Western River Railroad",
+    "waitTime": 15,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Goofy's Paint 'n' Play House",
+    "waitTime": 10,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Castle Carrousel",
+    "waitTime": 5,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Roger Rabbit's Car Toon Spin",
+    "waitTime": 30,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Mickey's PhilharMagic",
+    "waitTime": 5,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Splash Mountain",
+    "waitTime": 90,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Monsters, Inc. Ride & Go Seek!",
+    "waitTime": 100,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Pooh's Hunny Hunt",
+    "waitTime": 70,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Gadget's Go Coaster",
+    "waitTime": 35,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "“it’s a small world with Groot”",
+    "waitTime": 15,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Tom Sawyer Island Rafts",
+    "waitTime": 5,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Pinocchio's Daring Journey",
+    "waitTime": 15,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Stitch Encounter",
+    "waitTime": 15,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Minnie's House",
+    "waitTime": 60,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Country Bear Theater",
+    "waitTime": 10,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Donald's Boat",
+    "waitTime": 5,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Mark Twain Riverboat",
+    "waitTime": 10,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Jungle Cruise: Wildlife Expeditions",
+    "waitTime": -1,
+    "status": "CLOSED",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Cinderella's Fairy Tale Hall",
+    "waitTime": 10,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Chip 'n Dale's Treehouse",
+    "waitTime": 5,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Alice's Tea Party",
+    "waitTime": 15,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Snow White's Adventures",
+    "waitTime": 25,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "The Enchanted Tiki Room: Stitch Presents “Aloha E Komo Mai!”",
+    "waitTime": 10,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Haunted Mansion",
+    "waitTime": -1,
+    "status": "CLOSED",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Mickey's House and Meet Mickey",
+    "waitTime": -1,
+    "status": "CLOSED",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Omnibus",
+    "waitTime": -1,
+    "status": "CLOSED",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Star Tours: The Adventures Continue",
+    "waitTime": 10,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Peter Pan's Flight",
+    "waitTime": 40,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Big Thunder Mountain",
+    "waitTime": 90,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Pirates of the Caribbean",
+    "waitTime": 15,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  },
+  {
+    "name": "Enchanted Tale of Beauty and the Beast",
+    "waitTime": 140,
+    "status": "OPERATING",
+    "updateTime": "2026/2/16 16:01:49"
+  }
+]
