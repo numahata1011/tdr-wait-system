@@ -2,9 +2,10 @@ name: TDR Wait Time Auto-Fetcher
 
 on:
   schedule:
-    # 日本時間の 09:00, 09:30 ... 21:00, 21:30 に実行
-    # UTCでは 00:00, 00:30 ... 12:00, 12:30
+    # 1. 日本時間 09:00 〜 21:30 (UTC 00:00 〜 12:30) まで30分おき
     - cron: '0,30 0-12 * * *'
+    # 2. 日本時間 22:00 (UTC 13:00) ジャスト
+    - cron: '0 13 * * *'
   workflow_dispatch:
 
 permissions:
