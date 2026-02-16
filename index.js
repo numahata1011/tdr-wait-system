@@ -6,7 +6,7 @@ const fs = require('fs');
         const destRes = await fetch('https://api.themeparks.wiki/v1/destinations');
         const destData = await destRes.json();
 
-        // "Tokyo" を名前に含むリゾートを検索（大文字小文字を区別しない）
+        // "Tokyo" を名前に含むリゾートを検索�E�大斁E��小文字を区別しなぁE��E
         const resort = destData.destinations.find(d => d.name.toLowerCase().includes('tokyo'));
 
         if (!resort) {
@@ -49,7 +49,7 @@ const fs = require('fs');
             allAttractions = allAttractions.concat(attractions);
         }
 
-        fs.writeFileSync("tdl_status.json", JSON.stringify(allAttractions, null, 2));
+        fs.writeFileSync("tdr_status.json", JSON.stringify(allAttractions, null, 2));
         console.log(`Success: Saved ${allAttractions.length} attractions.`);
 
     } catch (e) {
