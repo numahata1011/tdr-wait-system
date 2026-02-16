@@ -25,7 +25,7 @@ jobs:
 
       # ここが変更点（.js -> .mjs）
       - name: Run Fetch Script
-        run: node index.mjs
+        run: node index.js
 
       - name: Commit and Push changes
         run: |
