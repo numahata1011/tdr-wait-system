@@ -1,5 +1,15 @@
-import { Parks } from 'themeparks';
+// 【修正点】ライブラリ全体を一度 "Themeparks" として読み込む（これが互換性の正解）
+import Themeparks from 'themeparks';
 import fs from 'fs';
+
+// 中身を取り出す
+const Parks = Themeparks.Parks;
+
+// 万が一のための安全装置
+if (!Parks) {
+    console.error("Error: Parks not found. Dump:", Themeparks);
+    process.exit(1);
+}
 
 // インスタンス作成
 const DisneyTokyo = new Parks.TokyoDisneyResortTokyoDisneyland();
