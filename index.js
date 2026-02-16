@@ -6,7 +6,7 @@ const fs = require('fs');
         const destRes = await fetch('https://api.themeparks.wiki/v1/destinations');
         const destData = await destRes.json();
 
-        // "Tokyo" を名前に含むリゾートを検索�E�大斁E��小文字を区別しなぁE��E
+        // 名称に「Tokyo」を含むリゾートを動的に特定
         const resort = destData.destinations.find(d => d.name.toLowerCase().includes('tokyo'));
 
         if (!resort) {
@@ -27,6 +27,16 @@ const fs = require('fs');
             throw new Error("No parks (TDL/TDS) found in this resort.");
         }
 
+        // --- 【重要】タイムスタンプの生成ロジック修正 ---
+        // ループの外側で1回だけ生成し、全てのレコードで「秒」まで完全に一致させる
+        // ISO形式から「YYYY/MM/DD HH:mm:ss」を生成し、スプレッドシート側の自動整形によるゆれを防ぐ
+        const d = new Date();
+        const jstDate = new Date(d.getTime() + (9 * 60 * 60 * 1000)); // JST補正
+        const timestamp = jstDate.toISOString()
+            .replace('T', ' ')
+            .substring(0, 19)
+            .replace(/-/g, '/');
+
         let allAttractions = [];
 
         for (const park of targetParks) {
@@ -43,14 +53,14 @@ const fs = require('fs');
                     name: ride.name,
                     waitTime: waitTime !== null ? waitTime : -1,
                     status: ride.status,
-                    updateTime: new Date().toLocaleString("ja-JP", { timeZone: "Asia/Tokyo" })
+                    updateTime: timestamp // ここで固定したタイムスタンプを使用
                 };
             });
             allAttractions = allAttractions.concat(attractions);
         }
 
         fs.writeFileSync("tdr_status.json", JSON.stringify(allAttractions, null, 2));
-        console.log(`Success: Saved ${allAttractions.length} attractions.`);
+        console.log(`Success: Saved ${allAttractions.length} attractions with timestamp: ${timestamp}`);
 
     } catch (e) {
         console.error("Critical Error:", e.message);
