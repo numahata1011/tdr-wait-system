@@ -2,13 +2,11 @@ name: TDR Wait Time Auto-Fetcher
 
 on:
   schedule:
-    # 08:07 〜 21:37 (JST) 30分おき
-    # UTC 23:07, 00:07, 00:37... 12:37
+    # 08:07 - 21:37 JST (23:07 - 12:37 UTC) 30分おき
     - cron: '7,37 23,0-12 * * *'
-    
-    # 22:07 (JST) 最終取得
-    # UTC 13:07
+    # 22:07 JST (13:07 UTC) 最終取得
     - cron: '7 13 * * *'
+  workflow_dispatch: # ← これが schedule と同じ階層にある必要があります
 
 permissions:
   contents: write
@@ -17,24 +15,19 @@ jobs:
   update-data:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - uses: actions/checkout@v3
+      
+      - uses: actions/setup-node@v3
         with:
           node-version: '18'
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run Fetch Script
-        run: node index.js
-
-      - name: Commit and Push changes
+          
+      - run: npm install
+      
+      - run: node index.js
+      
+      - name: Commit and Push
         run: |
           git config --global user.name 'GitHub Action-bot'
           git config --global user.email 'action@github.com'
-          # 【重要】ここを tdr_status.json に変更
           git add tdr_status.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update wait times" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update wait times with run_id" && git push)
